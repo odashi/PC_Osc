@@ -1,0 +1,104 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINMENU MENU 
+BEGIN
+    POPUP "アプリケーション"
+    BEGIN
+        MENUITEM "終了",                          IDM_QUIT
+    END
+    POPUP "設定"
+    BEGIN
+        POPUP "Volts/Div"
+        BEGIN
+            MENUITEM "x1",                          IDM_VOLTS_1
+            MENUITEM "x2",                          IDM_VOLTS_2
+            MENUITEM "x4",                          IDM_VOLTS_4
+            MENUITEM "x8",                          IDM_VOLTS_8
+            MENUITEM "x16",                         IDM_VOLTS_16
+            MENUITEM "x32",                         IDM_VOLTS_32
+            MENUITEM "x64",                         IDM_VOLTS_64
+            MENUITEM "x128",                        IDM_VOLTS_128
+            MENUITEM "x256",                        IDM_VOLTS_256
+        END
+        POPUP "Time/Div"
+        BEGIN
+            MENUITEM "x1",                          IDM_TIME_1
+        END
+        POPUP "グリッドサイズ"
+        BEGIN
+            MENUITEM "16px",                        IDM_GRID_16, GRAYED
+            MENUITEM "32px",                        IDM_GRID_32, GRAYED
+            MENUITEM "48px",                        IDM_GRID_48
+            MENUITEM "64px",                        IDM_GRID_64, GRAYED
+            MENUITEM "96px",                        IDM_GRID_96, GRAYED
+        END
+    END
+END
+
+#endif    // 日本語 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
